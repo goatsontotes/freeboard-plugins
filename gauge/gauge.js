@@ -14,6 +14,7 @@ window.dyngaugeID = 0;
             value: 0,
             min_value: 0,
             max_value: 0,
+            units: 0,
             level_colors: ['#f45b5b', '#f9c802', '#a9d70b', '#55BF3B'],
         };
 
@@ -29,7 +30,7 @@ window.dyngaugeID = 0;
                 value: currentValues.value,
                 min: currentValues.min_value,
                 max: currentValues.max_value,
-                label: currentValues.value,
+                label: currentValues.units,
                 showInnerShadow: false,
                 valueFontColor: "#d3d4d4",
                 levelColors: currentValues.level_colors,
