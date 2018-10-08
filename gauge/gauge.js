@@ -96,7 +96,7 @@ window.dyngaugeID = 0;
             {
                 name: "units",
                 display_name: "Units",
-                type: "text"
+                type: "calculated"
             },
             {
                 name: "min_value",
