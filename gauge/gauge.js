@@ -29,7 +29,7 @@ window.dyngaugeID = 0;
                 value: currentValues.value,
                 min: currentValues.min_value,
                 max: currentValues.max_value,
-                label: currentSettings.units,
+                label: currentValues.value,
                 showInnerShadow: false,
                 valueFontColor: "#d3d4d4",
                 levelColors: currentValues.level_colors,
